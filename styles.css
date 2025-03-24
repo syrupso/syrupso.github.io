@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Montserrat:wght@700&family=Viaoda+Libre&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+#header {
+    background-color: #44484f;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#header p {
+    font-size: 18px;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    background-color: beige;
+    border: 3px solid #44484f;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #44484f;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #44484f;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    position: flex;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px; 
+    box-sizing: border-box;
+}
+
+footer a {
+    color: #5f79ad;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
